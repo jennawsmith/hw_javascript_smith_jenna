@@ -19,3 +19,13 @@ var numba = function (string) {
 console.log(numba('7'));
 console.log(numba('seventy'));
 console.log(numba('university'));
+
+function inception(display, favMovie) {
+    display(favMovie);
+}
+
+function movie(favMovie) {
+    console.log(favMovie + ' is a fantastic movie!');
+}
+
+inception(movie, 'The Notebook');
